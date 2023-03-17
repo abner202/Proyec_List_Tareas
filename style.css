@@ -1,0 +1,88 @@
+body {
+    background-color: #0000001a;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  h1 {
+	text-align: center;
+    color: #030202;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #taskForm {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #taskInput {
+    flex: 1;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  #addButton {
+    background-color: #262726;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 100px;
+  }
+  
+  #addButton:hover {
+    background-color: #000000;
+   }
+  
+  #taskList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .taskItem {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .taskItem.completed {
+    background-color: #464944;
+    color: #0c0a0a;
+  }
+  
+  .taskItem .taskText {
+    flex: 1;
+  }
+  
+  .taskItem .taskActions {
+    display: flex;
+  }
+  
+  .taskItem button {
+    background-color: #080808;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 10px;
+    width: 70px;
+  }
+  
+  .taskItem button:hover {
+    background-color: #040404;
+  }
